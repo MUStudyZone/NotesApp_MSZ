@@ -1,0 +1,803 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*-----------------------heading - section----------------------------*/
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x:hidden;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #B4E9F1;
+    height: 250px;
+    width: 100%;
+    border-radius: 0px 0px 200px 0px;
+}
+
+/*----------------------------------------head start---------------------------------*/
+
+/*=========MU STUDY LOGO=======*/
+.head{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.mobile_menu{
+    display: none;
+    cursor: pointer;
+}
+.menu_icon[name="close"]{
+    display: none;
+}
+.menu_icon{
+    height: 40px;
+}
+.logo {
+    margin-top: 15px;
+    padding-left: 83px;
+    width: 285px;
+    height: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+/*=================NAVBAR===================*/
+.nav {
+    float: right;
+}
+
+.nav ul {
+    display: flex;
+    gap: 0px 70px;
+    padding-right: 35px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    text-decoration: none;
+    color: #4A5E6C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    scale: 1.1;
+    transition: ease-in .3s;
+}
+
+.nav ul li a:hover {
+    scale: 1.08;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: ease-in .2s;
+}
+
+/*--------------------------head close--------------------------------------*/
+
+/*====== images and web info here ======*/
+.header_content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img {
+    width: 426px;
+    height: 213.61px;
+    position: relative;
+    top: 0px;
+}
+
+.maintext {
+    float: right;
+}
+
+.text {
+    margin-top: 35px;
+}
+
+.community_name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #651B87;
+}
+
+.motive {
+    margin-top: 3px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #651B87;
+}
+
+.disc {
+    margin-top: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #986AAD;
+}
+
+.button {
+    margin-top: 15px;
+    background: #651B87;
+    border-radius: 25px;
+    width: 140.72px;
+    height: 30px;
+    padding: 10px 20px 0px 20px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    scale: 1.1;
+    transition: ease-in .2s;
+}
+
+/*----------------------------------------------------header closed------------------------*/
+
+
+/*---------------------------main_1-started---------------------------*/
+.main_1 {
+    margin: 50px;
+}
+
+.main_1_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_heading {
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #651B87;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sol_video {
+    margin-top: 100px;
+    width: 469.44px;
+    height: 313px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.sol_text {
+    margin: 80px;
+}
+
+.sol_notes, .sol_notice {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.sol_notes:hover, .sol_notice:hover {
+    scale: 1.1;
+    transition: ease-in .3s;
+}
+
+.sol_text_heading {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration-line: underline;
+    color: #651B87;
+}
+
+.points {
+    margin-top: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #651B87;
+}
+
+.points:hover {
+    color: purple;
+}
+
+/*---------------------------main_1-end---------------------------*/
+
+/*---------------------------main_2-started---------------------------*/
+.main_2 {
+    margin-top: 200px;
+    height: auto;
+    background: #B4E9F1;
+}
+
+.suggestions_heading p {
+    margin-top: 20px;
+}
+
+.suggested_content {
+    margin-top: 40px;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+
+.card {
+    margin-bottom: 12px;
+    height: auto;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    height: 75px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    scale: 1.1;
+    transition: ease-in .2s;
+}
+
+/*---------------------------main_2-end---------------------------*/
+
+/*---------------------main_3 -started ---------------------------*/
+.team_info {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    /* 3 columns */
+    grid-template-rows: repeat(3, 300px);
+    /* 3 rows  */
+    grid-gap: 140px 200px;
+    /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    justify-content: center;
+}
+
+.team {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: #651B87;
+    background-color: snow;
+    font-family: 'Roboto Slab', serif;
+}
+
+.team:hover {
+    box-shadow: #651B87;
+    scale: 1.2;
+    transition: ease-in .3s;
+}
+
+.team p {
+    color: #986AAD;
+    margin: 0px;
+    padding: 0px;
+}
+
+.member_img {
+    width: 180px;
+    height: 160px;
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.team_info p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.member_info {
+    padding: 2px 8px;
+}
+
+.team ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.team ul li {
+    list-style: none;
+}
+
+.icons {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+
+}
+
+.icons:hover {
+    scale: 1.1;
+    transition: ease-in .2s;
+    filter: grayscale(0%);
+}
+
+.main_3 #particle-js {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/*-----------------main_3 -end-------------------*/
+/*------------------------------------footer-------------------*/
+.footer {
+    height: 336px;
+    background: #B4E9F1;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.footer_heading {
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.footer_disc {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+
+    /* inner-text */
+
+    color: #986AAD;
+
+}
+
+.footer_disc ul li {
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+
+.footer_disc ul li a {
+    color: #986AAD;
+    text-decoration: none;
+}
+
+.footer_disc ul li a:hover {
+    color: #9747FF;
+    transition: ease-in .5s;
+}
+
+.footer_image {
+    width: 241px;
+    height: 226px;
+}
+
+/*----------------------------RESPONSIVE DESIGN---------------------*/
+
+/*------tablet----------*/
+@media(max-width:1192px) {
+
+    /*-----header----*/
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav ul {
+        gap: 0px 50px;
+    }
+
+    .nav ul li a {
+        font-size: 15px;
+    }
+
+    .image img {
+        width: 400px;
+        height: 190px;
+    }
+
+    .community_name {
+        font-size: 12px;
+    }
+
+    .motive {
+        font-size: 20px;
+    }
+
+    .disc {
+        font-size: 15px;
+    }
+
+    .button {
+        width: 120px;
+        height: 25px;
+    }
+
+    .button a {
+        font-size: 12px;
+    }
+
+    /*-------main_1---------*/
+    .main_heading {
+        font-size: 20px;
+    }
+
+    .sol_video {
+        width: 400px;
+        height: 300px;
+    }
+
+    .sol_text_heading {
+        font-size: 20px;
+    }
+
+    .points {
+        font-size: 15px;
+    }
+
+    /*---------main_2-----------*/
+    .suggested_content {
+        display: block;
+        justify-content: center;
+    }
+
+    .card {
+        font-size: 12px;
+    }
+
+    .card img {
+        width: 250px;
+    }
+
+    /*---------main_3-------------*/
+    .team_info {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: auto;
+        justify-content: center;
+        margin: 0px;
+        margin-bottom: 30px;
+        gap: 50px 200px;
+    }
+
+    .team {
+        margin-top: 30px;
+        width: 220px;
+    }
+
+    .member_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team_info h4 {
+        font-size: 14px;
+    }
+
+    .team_info p {
+        font-size: 13px;
+    }
+
+    .icons {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    /*--------------footer-----*/
+    .footer_heading {
+        font-size: 15px;
+    }
+
+    .footer_disc {
+        font-size: 10px;
+    }
+}
+
+/*-------mid size-------------*/
+@media(max-width:852px) {
+
+    /*---------header-part--------*/
+    .header {
+        height: 70px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .maintext {
+        display: none;
+    }
+
+    .main_1 {
+        background: #F8F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        padding-bottom: 5px;
+    }
+
+    .main_heading {
+        padding-top: 30px;
+    }
+
+    .main_1_content {
+        display: block;
+    }
+
+    .sol_video {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 300px;
+        height: 200px;
+
+    }
+
+    /*------incomplete-------*/
+}
+
+/*mobile phone display*/
+
+@media(min-width:355px) and (max-width:852px) {
+    .header{
+        height:70px;
+        border-radius: 0px 0px 40px 40px;
+        position:fixed;
+        top:0px;
+        z-index: 2;
+    }
+    .head{
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .mobile_menu{
+        display: block;
+        position:fixed;
+        top:17px;
+        right:20px;
+    }
+    .menu_icon{
+        height:25px;
+    }
+    .logo{
+        margin: 0px;
+        padding-left: 0px;
+        font-size: 25px;
+        width:30px;
+        text-align: center;
+    }
+    .nav{
+        z-index: 1;
+        border-radius: 40px 0px 0px 0px;
+        width: 100%;
+        height: 100vh;
+        background-color: #B4E9F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all .3s ease-in;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .navbar-list{
+        flex-direction: column;
+        align-items:center ;
+    }
+    .navbar-list li{
+        padding: 20px;
+        font-weight: bold;
+        font-style: 'Roboto';
+    }
+    .active .nav{
+        transform: translateX(20%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active .mobile_menu .menu_icon[name="close"]{
+        display: block;
+    }
+    .active .mobile_menu .menu_icon[name="open"]{
+        display:none;
+    }
+    .main_1 {
+        background-color: rgb(255,247,230);
+        border-radius: 20px;
+        
+        margin:10px;
+        margin-top: 90px;
+    }
+    .image{
+        display: block;
+        position: fixed;
+        top:0%;
+        left:3%;
+    }
+    .image img{
+        width:90px;
+        height:75px;
+    }
+    .main_heading {
+        font-size: 15px;
+    }
+
+    .sol_video {
+        width: 200px;
+        height: 150px;
+    }
+
+    .sol_text {
+        margin: 30px;
+    }
+
+    .sol_notes, .sol_notice {
+        width: 80%;
+    }
+
+    .sol_text_heading {
+        font-size: 10px;
+    }
+
+    .points {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    /*----main_2-------*/
+    .main_2 {
+        background:  rgb(255, 247, 230);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        padding-bottom: 5px;
+        margin: 10px;
+    }
+
+    .suggested_content {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 15px;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .card img {
+        width: 120px
+    }
+
+    .suggested_content {
+        display: block;
+    }
+
+    .block1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .right {
+        display: block;
+    }
+
+    /*-------main_3----------*/
+    .team_info {
+        grid-template-columns: repeat(2, 50px);
+        grid-template-rows: auto;
+        gap: 60px 120px;
+    }
+
+    .team {
+        margin-top: 40px;
+        width: 140px;
+    }
+
+    .member_img {
+        width: 120px;
+        height: 140px;
+    }
+
+    .icons {
+        padding: 5px;
+        width: 20px;
+        height: 20px;
+        filter: grayscale(0%);
+    }
+    /*--------footer------*/
+    .footer {
+        border-radius: 40px 40px 0px 0px;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    .footer_heading {
+        font-size: 10px;
+    }
+
+    .footer_disc {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .footer_image {
+        width: 80px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish&display=swap" );
+/*-----------------------heading - section----------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    position: absolute;
+height: 250px;
+left: 0%;
+right: 0;
+top: 0px;
+
+/* bgcolor2 */
+
+background: #B4E9F1;
+border-radius: 0px 0px 200px 0px;
+}
+.head{
+    
+position: absolute;
+height: 34px;
+left: 28px;
+right: 80px;
+top: 20px;
+}
+.logo
+{
+    
+position: absolute;
+width: 285px;
+height: 34px;
+left: 98px;
+top: 0px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+.nav{
+position: absolute;
+left: 53.18%;
+right: 0.72%;
+top: 0%;
+bottom: 11.76%;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px 70px;
+    
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul a{
+    text-decoration: none;
+    
+width: 92px;
+height: 25px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* nav-link colour */
+
+color: #4A5E6C;
+}
+.nav ul a:hover{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image img{
+    
+position: absolute;
+width: 426px;
+height: 219.61px;
+left: 28px;
+top: 45px;
+
+/*background: url("../images/headimage.png");*/
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap:px;
+    
+    position: absolute;
+    left: 51.18%;
+    right: 14.31%;
+    top: 33.13%;
+    bottom: 32.24%;
+    
+}
+.text{
+    /* Frame 20 */
+
+
+width: 332px;
+height: 60px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.community_name{
+    /* Mu study zone */
+
+
+width: 123px;
+height: 5px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 10px;
+/* identical to box height */
+
+
+/* text-color-2 */
+
+color: #651B87;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.motive{
+    /* Learn grow and contribute */
+
+
+width: 332px;
+height: 10px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 5px;
+
+/* text-color-2 */
+
+color: #651B87;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.disc
+{
+    /* Frame 16 */
+
+
+width: 497px;
+height: 30px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.disc p{
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+
+/* inner-text */
+
+color: #986AAD;
+}
+.button{
+    /* Frame 3 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 31px;
+gap: 10px;
+
+position: absolute;
+width: 140.72px;
+height: 30px;
+left: 50;
+top: calc(50% - 45px/2 + 110px);
+
+/* text-color-2 */
+
+background: #651B87;
+border-radius: 25px;
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    font-style: 'mulish';
+    font-size: 18px;
+}
+.button:hover{
+    color:white;
+    background: #460b61;
+    scale: 1.04;
+    transition: ease-in .3s;
+}
+/*-------------------------------main_1 section --------------------------------*/
+.main_1{
+    position: absolute;
+    left: 0px;
+top: 300px;
+width: 1440px;
+height: 599px;
+
+
+}
+.main_1 .main_heading{
+    position: absolute;
+width: 362px;
+height: 20px;
+left: 40%;
+top:0%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+text-transform: uppercase;
+
+/* text-color-2 */
+
+color: #651B87;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main_heading:hover{
+    scale: 1.1;
+    transition: ease-in .2s;
+}
+.sol_video{
+    position: absolute;
+width: 469.44px;
+height: 313px;
+left: 135px;
+top: 199px;
+border-radius: 20px;
+background: #FFFFFF;
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+}
+.sol_video:hover{
+    scale: 1.1;
+    transition: ease-in .3s;
+}
+.sol_text{
+    position: absolute;
+width: 474px;
+height: 435px;
+left: 836px;
+top: 164px;
+}
+.sol_notes,.sol_notice{
+    
+background: #FFFFFF;
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 15px;
+width: auto;
+height:auto;
+}
+.sol_notice:hover,.sol_notes:hover{
+    scale:1.1;
+    transition: ease-in .2s;
+}
+.sol_text_heading{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+text-decoration-line: underline;
+
+/* text-color-2 */
+
+color: #651B87;
+}
+.points{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+/* text-color-2 */
+
+color: #651B87;
+}
+.points:hover{
+    color:purple;
+}
+/*--------------------------------main_2 section----------------------------*/
+.main_2{
+width: 100%;
+height: 547px;
+position: absolute;
+left: 0px;
+top: 1100px;
+/* bgcolor2 */
+
+background: #B4E9F1;
+}
+.suggestions_heading{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 31px;
+text-transform: uppercase;
+text-align: center;
+margin-top:15px;
+/* text-color-2 */
+
+color: #651B87;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*------------------------------------footer-------------------*/
+.footer{
+    height: 336px;
+        background: #B4E9F1;
+        margin-top: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    .footer_heading{
+        text-align: center;
+        font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    }
+    .footer_disc{
+        font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    
+    /* inner-text */
+    
+    color: #986AAD;
+    
+    }
+    .footer_disc ul li{
+        list-style: none;
+        margin-bottom:5px;
+        
+    }
+    .footer_disc ul li a{
+        color:#986AAD;
+        text-decoration: none;
+    }
+    .footer_disc ul li a:hover{
+        color: #9747FF;
+        transition: ease-in .5s;
+    }
+    .footer_image{
+        width: 241px;
+    height: 226px;
+    }
