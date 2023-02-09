@@ -19,6 +19,9 @@
         },
     ];
     let sems = {};
+    let hh = () => {
+        alert("YOPE");
+    };
 </script>
 
 <div class="m-auto w-40 border-black border-2">
@@ -34,5 +37,7 @@
             </option>
         {/each}
     </select>
-    <input type="radio" name="1" id="" value="${sems}" />{sems.name || "null"}
+    <input type="radio" name="sem" id="" value="${sems}" />{sems.sem || "nulla"}
+    <input type="text" name="tel" id="" value="sdjg " />
+    <a href="/notes/{sems.branch}{sems.sem}">Submit</a>
 </div>
