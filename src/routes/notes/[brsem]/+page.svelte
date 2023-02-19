@@ -2,6 +2,4 @@
     export let data;
 </script>
 
-{#each data.data as dat}
-    {dat.name}
-{/each}
+{data.branch},{data.sem}
