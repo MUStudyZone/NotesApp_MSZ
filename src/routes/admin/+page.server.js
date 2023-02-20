@@ -21,6 +21,7 @@ export const actions = {
             await prisma.$disconnect()
 
         } catch (e) {
+
             console.log("--------->" + e)
             await prisma.$disconnect()
         }
