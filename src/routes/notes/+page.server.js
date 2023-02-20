@@ -28,5 +28,5 @@ export async function load({ params, url }) {
     let sem = slug[slug.length - 1]
     let branch = slug - slug[slug.length - 1]
 
-    getSubject(branch, sem)
+    return { text: "Hello World" }
 }

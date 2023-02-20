@@ -8,7 +8,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = "prisma://aws-us-east-1.prisma-data.com/?api_key=JdfDFhRBWWYcux1hsfSJWvzQTv8ILLcleafcGCYrsaAjeT2cUreg2cd3vvyjvOmn"
 }
 
 model Subject {
