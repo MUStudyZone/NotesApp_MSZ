@@ -23,10 +23,10 @@ class Db {
 }
 let db = new Db()
 export async function load({ params, url }) {
-    // let slug = toString(params.brsem)
-    // console.log(slug)
-    // let sem = slug[slug.length - 1]
-    // let branch = slug - slug[slug.length - 1]
+    let slug = toString(params.brsem)
+    console.log(slug)
+    let sem = slug[slug.length - 1]
+    let branch = slug - slug[slug.length - 1]
 
-    //getSubject(branch, sem)
+    getSubject(branch, sem)
 }

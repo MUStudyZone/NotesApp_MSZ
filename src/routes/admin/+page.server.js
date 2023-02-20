@@ -7,7 +7,7 @@ export const actions = {
         try {
             let data = await request.formData()
             let subjectName = data.get('subject')
-            let branch = data.get('brbranchsem')
+            let branch = data.get('branch')
             let sm = data.get('sem')
 
             await prisma.$connect()
