@@ -1,5 +1,5 @@
-import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
+import { prisma } from '$lib/server/prisma'
+
 
 export const ssr = true
 export const actions = {
@@ -7,15 +7,15 @@ export const actions = {
         try {
             let data = await request.formData()
             let subjectName = data.get('subject')
-            let branch = data.get('branch')
-            let sm = data.get('sem')
+            let brnch = data.get('branch')
+            let sm = parseInt(data.get('sem'))
 
             await prisma.$connect()
             await prisma.subject.create({
                 data: {
                     name: subjectName,
-                    branch: branch,
-                    sem: parseInt(sm)
+                    branch: brnch,
+                    sem: sm
                 }
             })
             await prisma.$disconnect()

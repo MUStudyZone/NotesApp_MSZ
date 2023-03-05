@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 /*-----------------------heading - section----------------------------*/
-html{
+html {
     overflow-x: hidden;
 }
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 p {
@@ -19,7 +20,7 @@ p {
 
 .header {
     background-color: #B4E9F1;
-    height: 250px;
+    height: 40%;
     width: 100%;
     border-radius: 0px 0px 200px 0px;
 }
@@ -27,21 +28,25 @@ p {
 /*----------------------------------------head start---------------------------------*/
 
 /*=========MU STUDY LOGO=======*/
-.head{
+.head {
     justify-content: space-between;
     display: flex;
     width: 100%;
 }
-.mobile_menu{
+
+.mobile_menu {
     display: none;
     cursor: pointer;
 }
-.menu_icon[name="close"]{
+
+.menu_icon[name="close"] {
     display: none;
 }
-.menu_icon{
+
+.menu_icon {
     height: 40px;
 }
+
 .logo {
     margin-top: 15px;
     padding-left: 83px;
@@ -102,9 +107,9 @@ p {
 
 .image img {
     width: 426px;
-    height: 213.61px;
+    height: 220px;
     position: relative;
-    top: 0px;
+    top: 15px;
 }
 
 .maintext {
@@ -112,7 +117,7 @@ p {
 }
 
 .text {
-    margin-top: 35px;
+    margin-top: 60px;
 }
 
 .community_name {
@@ -121,10 +126,10 @@ p {
     font-weight: 600;
     font-size: 15px;
     color: #651B87;
+    margin-bottom: 10px;
 }
 
 .motive {
-    margin-top: 3px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 900;
@@ -146,7 +151,7 @@ p {
     background: #651B87;
     border-radius: 25px;
     width: 140.72px;
-    height: 30px;
+    height: 50px;
     padding: 10px 20px 0px 20px;
     gap: 10px;
     text-align: center;
@@ -205,7 +210,8 @@ p {
     margin: 80px;
 }
 
-.sol_notes, .sol_notice {
+.sol_notes,
+.sol_notice {
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
     border-radius: 8px;
@@ -213,7 +219,8 @@ p {
     margin-bottom: 15px;
 }
 
-.sol_notes:hover, .sol_notice:hover {
+.sol_notes:hover,
+.sol_notice:hover {
     scale: 1.1;
     transition: ease-in .3s;
 }
@@ -247,7 +254,8 @@ p {
 .main_2 {
     margin-top: 200px;
     height: auto;
-    background: #B4E9F1;
+    background: rgb(137, 131, 255);
+    width: 100%;
 }
 
 .suggestions_heading p {
@@ -256,25 +264,29 @@ p {
 
 .suggested_content {
     margin-top: 40px;
-    justify-content: space-between;
+    width: 88%;
+    display: flex;
+    height: auto;
     margin: auto;
-    width: 60%;
+    flex-wrap: wrap;
+
 }
 
 .card {
-    margin-bottom: 12px;
+    background-color: #e8e8e8;
+    width: 30%;
+    margin: 20px;
     height: auto;
-    border-radius: 10px;
-    background: #FFFFFF;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
-    padding-left: 10px;
-    text-align: center;
-    padding-bottom: 10px;
+    border-radius: 9px;
+    padding: 5px;
+    overflow: hidden;
 }
 
 .card img {
-    height: 75px;
+    height: 80%;
+    width: 100%;
     border-radius: 10px;
+
 }
 
 .card:hover {
@@ -364,12 +376,13 @@ p {
 }
 
 .main_3 #particle-js {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
 }
+
 /*-----------------main_3 -end-------------------*/
 /*------------------------------------footer-------------------*/
 .footer {
@@ -597,35 +610,40 @@ p {
 /*mobile phone display*/
 
 @media(min-width:355px) and (max-width:852px) {
-    .header{
-        height:70px;
+    .header {
+        height: 70px;
         border-radius: 0px 0px 40px 40px;
-        position:fixed;
-        top:0px;
+        position: fixed;
+        top: 0px;
         z-index: 2;
     }
-    .head{
+
+    .head {
         display: block;
         padding-top: 15px;
         text-align: center;
     }
-    .mobile_menu{
+
+    .mobile_menu {
         display: block;
-        position:fixed;
-        top:17px;
-        right:20px;
+        position: fixed;
+        top: 17px;
+        right: 20px;
     }
-    .menu_icon{
-        height:25px;
+
+    .menu_icon {
+        height: 25px;
     }
-    .logo{
+
+    .logo {
         margin: 0px;
         padding-left: 0px;
         font-size: 25px;
-        width:30px;
+        width: 30px;
         text-align: center;
     }
-    .nav{
+
+    .nav {
         z-index: 1;
         border-radius: 40px 0px 0px 0px;
         width: 100%;
@@ -640,44 +658,53 @@ p {
         visibility: hidden;
         pointer-events: none;
     }
-    .navbar-list{
+
+    .navbar-list {
         flex-direction: column;
-        align-items:center ;
+        align-items: center;
     }
-    .navbar-list li{
+
+    .navbar-list li {
         padding: 20px;
         font-weight: bold;
         font-style: 'Roboto';
     }
-    .active .nav{
+
+    .active .nav {
         transform: translateX(20%);
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
     }
-    .active .mobile_menu .menu_icon[name="close"]{
+
+    .active .mobile_menu .menu_icon[name="close"] {
         display: block;
     }
-    .active .mobile_menu .menu_icon[name="open"]{
-        display:none;
+
+    .active .mobile_menu .menu_icon[name="open"] {
+        display: none;
     }
+
     .main_1 {
-        background-color: rgb(255,247,230);
+        background-color: rgb(255, 247, 230);
         border-radius: 20px;
-        
-        margin:10px;
+
+        margin: 10px;
         margin-top: 90px;
     }
-    .image{
+
+    .image {
         display: block;
         position: fixed;
-        top:0%;
-        left:3%;
+        top: 0%;
+        left: 3%;
     }
-    .image img{
-        width:90px;
-        height:75px;
+
+    .image img {
+        width: 90px;
+        height: 75px;
     }
+
     .main_heading {
         font-size: 15px;
     }
@@ -691,7 +718,8 @@ p {
         margin: 30px;
     }
 
-    .sol_notes, .sol_notice {
+    .sol_notes,
+    .sol_notice {
         width: 80%;
     }
 
@@ -706,7 +734,7 @@ p {
 
     /*----main_2-------*/
     .main_2 {
-        background:  rgb(255, 247, 230);
+        background: rgb(255, 247, 230);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 40px;
         padding-bottom: 5px;
@@ -780,6 +808,7 @@ p {
         height: 20px;
         filter: grayscale(0%);
     }
+
     /*--------footer------*/
     .footer {
         border-radius: 40px 40px 0px 0px;

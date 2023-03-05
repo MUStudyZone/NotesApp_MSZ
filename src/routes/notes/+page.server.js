@@ -1,32 +1,33 @@
-import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
+// import { prisma } from '$lib/server/prisma'
 
+// class Db {
+//     async insert() {
+//         try {
+//             await prisma.$connect()
+//             console.log("connected to db for insertion")
+//             await prisma.$disconnect()
 
-class Db {
-    async insert() {
-        try {
-            await prisma.$connect()
-            console.log("connected to db for insertion")
-            await prisma.$disconnect()
+//         }
+//         catch (e) {
 
-        }
-        catch (e) {
+//         }
+//         finally {
 
-        }
-        finally {
+//         }
+//     }
+//     async getSubject(branch, sem) {
+//         await prisma.$connect()
+//         let resp = await prisma.subject.findMany({})
+//         return resp
+//     }
+// }
+// let db = new Db()
+// export async function load({ params, url }) {
+//     let slug = toString(params.brsem)
+//     console.log(slug)
+//     let sem = slug[slug.length - 1]
+//     let branch = slug - slug[slug.length - 1]
 
-        }
-    }
-    getSubject(branch, sem) {
-
-    }
-}
-let db = new Db()
-export async function load({ params, url }) {
-    let slug = toString(params.brsem)
-    console.log(slug)
-    let sem = slug[slug.length - 1]
-    let branch = slug - slug[slug.length - 1]
-
-    return { text: "Hello World" }
-}
+//     let resp = db.getSubject(branch, sem)
+//     return { text: resp }
+// }

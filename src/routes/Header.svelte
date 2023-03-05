@@ -1,5 +1,5 @@
 <!------------------------------------------header-------------------------------------->
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="/style.css" />
 <div class="header">
     <div class="head">
         <label for="logo" class="logo">MU STUDY</label>

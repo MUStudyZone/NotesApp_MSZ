@@ -1,19 +1,35 @@
-// export async function load({ params }) {
-//     let branch = params.brsem;
-//     let sem = branch[branch.length - 1]
-//     branch = branch.slice(0, branch.length - 1)
+import { prisma } from '$lib/server/prisma'
 
-//     let res = await fetch(`http://127.0.0.1:8000/notes/${branch}/${sem}`)
-//     let fet = await res.json()
-//     return { data: fet }
-// }
+class Db {
+    async insert() {
+        try {
+            await prisma.$connect()
+            console.log("connected to db for insertion")
+            await prisma.$disconnect()
+
+        }
+        catch (e) {
+
+        }
+        finally {
+
+        }
+    }
+    async getSubject(branch, sem) {
+        await prisma.$connect()
+        let resp = await prisma.subject.findMany({})
+        await prisma.$disconnect()
+        return resp
+    }
+}
+let db = new Db()
 export async function load({ params, url }) {
-    let slug = ' '
-    slug = params.brsem
+    let slug = toString(params.brsem)
     console.log(slug)
     let sem = slug[slug.length - 1]
-    let branch = slug.slice(0, slug.length - 1)
-    console.log(branch, sem)
-    // getSubject(branch, sem)
-    return { branch: branch, sem: sem }
+    let branch = slug - slug[slug.length - 1]
+
+    let resp = db.getSubject(branch, sem)
+
+    return { text: resp }
 }
